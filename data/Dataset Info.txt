@@ -1,0 +1,16 @@
+The datasets small and small-loop was created for testing purposes.
+
+The number included in parantheses e.g. (int,int) are the number of nodes and edges respectively.
+
+Sorted by number of nodes, smallest to largest:
+
+small.txt (6, 13)
+small-loop.txt(7, 15)
+Wiki-Vote.txt (7115, 103689)    Retrieved from https://snap.stanford.edu/data/wiki-Vote.html
+twitter-combined.txt (81306, 1768149)     Retrieved from https://snap.stanford.edu/data/ego-Twitter.html
+web-Stanford.txt(281903, 2312497)     Retrieved from https://snap.stanford.edu/data/web-Stanford.html
+web-BerkStan.txt (685230, 7600595)    Retrieved from https://snap.stanford.edu/data/web-BerkStan.html
+web-Google.txt (875713, 5105039)     Retrieved from https://snap.stanford.edu/data/web-Google.html
+
+Link to OneDrive folder containing the datasets:
+https://uillinoisedu-my.sharepoint.com/personal/kpng2_illinois_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkpng2%5Fillinois%5Fedu%2FDocuments%2FCS225%20Extra%20Credit%20Datasets&ga=1
