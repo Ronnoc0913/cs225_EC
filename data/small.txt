@@ -1,0 +1,18 @@
+# our own small directed graph for testing
+# nodes: 6 edges: 13
+#FromNodeId #ToNodeId
+
+1 2
+1 3
+1 4
+2 1
+2 3
+3 1
+3 4
+3 6
+4 3
+5 4
+5 2
+6 3
+6 4
+
