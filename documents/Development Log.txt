@@ -1,0 +1,16 @@
+11/12
+No new updates
+
+11/19
+What goals you had set for the week and whether they were accomplished or not:
+Our goal for this week was to create a function to translate .txt files into a graph for use in the pagerank function.
+We accomplished this goal by creating the createAdjacencyMatrix function, and also created another function for the transition probability matrix to be used in the pagerank algorithm.
+
+What specific tasks each member of your team accomplished in the week:
+Kris did the function and Connor was on tech support (because Kris couldn't get CMake to work).
+
+What problems you encountered (if any) that prevented you from meeting your goals:
+Spent way too much time trying to get CMake to work, but we accomplished the goals anyway.
+
+What you plan to accomplish next week:
+It's fall break, so we don't have anything planned. But when we get back we will start on the pagerank algorithm.
