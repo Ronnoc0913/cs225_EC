@@ -15,7 +15,7 @@ vector<vector<int>> createAdjacencyMatrix(const string &filename, int numNodes)
     vector<vector<int>> adjacencyMatrix(numNodes, vector<int>(numNodes, 0));
 
     while (file >> from >> to) {
-        std::cout << "from: " << from << ", to: " << to << std::endl;
+        // std::cout << "from: " << from << ", to: " << to << std::endl;
         adjacencyMatrix[from-1][to-1] = 1;
     }
 
