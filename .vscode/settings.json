@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "C:/Users/kpngb/OneDrive/Desktop/CS225/cs225ec/code"
+    "cmake.sourceDirectory": "C:/Users/kpngb/OneDrive/Desktop/CS225/cs225ec/code",
+    "files.associations": {
+        "stdexcept": "cpp",
+        "vector": "cpp"
+    }
 }
