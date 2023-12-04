@@ -16,5 +16,4 @@ N/A - Thanksgiving Break
 ## Mid Project Meeting
 
 ## Week 3: 11/27 - 12/03
-
-## Week 4: 12/04 - 12/06
+Nice job implementing the algorithm. Not sure what you meant regarding the issues with github and python, but let us know if you need any help. Please have the test suite as close to complete as you can before the mid project checkin today. Without them, you can't really prove correctness of your algorithm. Looking forward to chatting!

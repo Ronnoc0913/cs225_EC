@@ -14,3 +14,19 @@ Spent way too much time trying to get CMake to work, but we accomplished the goa
 
 What you plan to accomplish next week:
 It's fall break, so we don't have anything planned. But when we get back we will start on the pagerank algorithm.
+
+12/3
+What goals you had set for the week and whether they were accomplished or not:
+Finish PageRank algorithm: technically complete, but not tested becauses the test cases are not done.
+
+What specific tasks each member of your team accomplished in the week:
+Connor has written the algorithm and Kris has refined the test cases.
+
+What problems you encountered (if any) that prevented you from meeting your goals:
+We had prior engagements with other classes that required work that put a pause on the progress on this assignment. 
+We also had problems with GitHub and Python (because we used it to figure out the test cases).
+
+What you plan to accomplish next week:
+We will be done with the project.
+
+
