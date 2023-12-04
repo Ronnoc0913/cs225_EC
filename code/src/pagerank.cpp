@@ -46,14 +46,14 @@ vector<vector<double>> createTransitionMatrix(const vector<vector<int>>& adjacen
 
 /*Function to calculate the PageRank of nodes in a graph
   TransitionMatrix: transition probability matrix of graph
-  numIterations: maximum number of iterations to run the algorithm.
+  maxIterations: maximum number of iterations to run the algorithm.
   dampFactor: damping factor */
-vector<double> calculatePageRank(const vector<vector<double>>& transitionMatrix, int numIterations, double dampFactor){
+vector<double> calculatePageRank(const vector<vector<double>>& transitionMatrix, int maxIterations, double dampFactor){
     int numNodes = transitionMatrix.size(); 
     vector<double> pageRank(numNodes, 1.0 / numNodes);
     vector<double> newPageRank(numNodes, 0.0);
 
-    for(int iter = 0; iter < numIterations; ++iter){
+    for(int iter = 0; iter < maxIterations; ++iter){
         double danglingRank = 0.0;
         //calculate total rank contribution from dangling nodes
         for(int i = 0; i < numNodes; ++i){
@@ -87,5 +87,10 @@ vector<double> calculatePageRank(const vector<vector<double>>& transitionMatrix,
         pageRank = newPageRank;
 
     }
+    //truncate to three decimal places
+    for(double &value : pageRank){
+        value = std::floor(value * 1000.0) / 1000.0;
+    }
     return pageRank;
 }
+
