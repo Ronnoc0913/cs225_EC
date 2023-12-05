@@ -15,5 +15,13 @@ N/A - Thanksgiving Break
 
 ## Mid Project Meeting
 
+Good job with the Mid-Project check-in! The algorithm functions as expected and seems like it is working correctly. In terms of your tests, you do a good job testing both the final rankings by the end of the algorithm and the scores themselves. Make sure you figure out and target your rounding errors, one way to do this is by rounding off actual and expected results to a given decimal point. 
+
+Something else to make sure you have is a written breakdown of how you got your expected results for tests, you must explain in words why your test case is correct. A manual breakdown/calculation is one option, or you can explain how you used the technology you did to calculate the expected results.
+
+Another thing you should consider, is testing a larger dataset.
+
+Overall great job, your tests show functionality, and the algorithm seems correct!
+
 ## Week 3: 11/27 - 12/03
 Nice job implementing the algorithm. Not sure what you meant regarding the issues with github and python, but let us know if you need any help. Please have the test suite as close to complete as you can before the mid project checkin today. Without them, you can't really prove correctness of your algorithm. Looking forward to chatting!
