@@ -8,12 +8,12 @@ All of the code files can be found in our code/ directory.
     3. After the cmake files are created, compile and run the code using make test && ./test
     4. Modify the test cases file in our src/ directory to modify and run whatever dataset you need
 
-# DATA
-We used three different test data sets for this algorithm. We used small, medium and large datasets.
-For the small data set, we had two test cases, one with no loop which contains 6 nodes, and one with a loop that contains 7 nodes.
-The medium dataset, has around 95 nodes.
-The large dataset has 8000 nodes.
-These datasets are modifactions to the original datasets in our proposal due to hardware limitations and the amount of time that it takes to run the algorithm on these large datasets.
+# Data
+We used six different test data sets for this algorithm. We used small, medium and large datasets.
+For the small data sets, we had two test cases, one with no loop which contains 6 nodes, and one with a loop that contains 7 nodes.
+We used two medium datasets which were modified from web-BerkStan and Wiki_Vote to contain 100 nodes each. 
+We also used two large datasets which were modified from web-BerkStan and Wiki-Vote to contain 1000 nodes each.
+These datasets are modifications to the original datasets in our proposal due to hardware limitations and the amount of time that it takes to run the algorithm on these large datasets.
 
 # Documents
 In our documents/ directory, you can find the original proposal, the final written report, and the feedback given by the mentors
