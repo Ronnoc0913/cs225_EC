@@ -1,11 +1,13 @@
-The datasets small and small-loop was created for testing purposes.
+Information on the datasets that we created/modified for the purposes of testing
 
-The number included in parantheses e.g. (int,int) are the number of nodes and edges respectively.
+small.txt (6)
+small-loop.txt (7)
+med-berkstan.txt (100)
+med-wiki.txt (100)
+large-berkstan.txt (1000)
+large-wiki.txt (1000)
 
-Sorted by number of nodes, smallest to largest:
-
-small.txt (6, 13)
-small-loop.txt(7, 15)
+The original datasets found in the proposal:
 Wiki-Vote.txt (7115, 103689)    Retrieved from https://snap.stanford.edu/data/wiki-Vote.html
 twitter-combined.txt (81306, 1768149)     Retrieved from https://snap.stanford.edu/data/ego-Twitter.html
 web-Stanford.txt(281903, 2312497)     Retrieved from https://snap.stanford.edu/data/web-Stanford.html
