@@ -89,7 +89,7 @@ vector<double> calculatePageRank(const vector<vector<double>>& transitionMatrix,
     }
     //truncate to three decimal places
     for(double &value : pageRank){
-        value = std::floor(value * 1000000.0) / 1000000.0;
+        value = std::floor(value * 100000.0) / 100000.0;
     }
     return pageRank;
 }
