@@ -81,7 +81,7 @@ vector<double> calculatePageRank(const vector<vector<double>>& transitionMatrix,
             diff += std::abs(newPageRank[i] - pageRank[i]);
 
         }
-        if(diff < 0.001){
+        if(diff < 0.0000001){
             break;
         }
         pageRank = newPageRank;
@@ -89,8 +89,7 @@ vector<double> calculatePageRank(const vector<vector<double>>& transitionMatrix,
     }
     //truncate to three decimal places
     for(double &value : pageRank){
-        value = std::floor(value * 100000.0) / 100000.0;
+        value = std::floor(value * 1000.0) / 1000.0;
     }
     return pageRank;
 }
-
