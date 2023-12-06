@@ -12,7 +12,8 @@ All of the code files can be found in our code/ directory.
 We used three different test data sets for this algorithm. We used small, medium and large datasets.
 For the small data set, we had two test cases, one with no loop which contains 6 nodes, and one with a loop that contains 7 nodes.
 The medium dataset, has around 95 nodes.
-The large dataset has 8000 nodes
+The large dataset has 8000 nodes.
+These datasets are modifactions to the original datasets in our proposal due to hardware limitations and the amount of time that it takes to run the algorithm on these large datasets.
 
 # Documents
 In our documents/ directory, you can find the original proposal, the final written report, and the feedback given by the mentors
