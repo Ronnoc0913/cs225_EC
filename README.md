@@ -16,4 +16,7 @@ We also used two large datasets which were modified from web-BerkStan and Wiki-V
 These datasets are modifications to the original datasets in our proposal due to hardware limitations and the amount of time that it takes to run the algorithm on these large datasets.
 
 # Documents
-In our documents/ directory, you can find the original proposal, the final written report, and the feedback given by the mentors
+In our documents/ directory, you can find the original proposal, the final written report, and the feedback given by the mentors. 
+
+# Final Video Presentation
+
