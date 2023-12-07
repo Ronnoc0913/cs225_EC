@@ -3,10 +3,18 @@ Our proposed final project is to implement the PageRank algorithm, which sorts a
 
 # Location of code
 All of the code files can be found in our code/ directory.
+
     1. To run the code, create a build directory within the code/ directory.
+    
     2. CD into the build/ directory and run cmake ..
+    
     3. After the cmake files are created, compile and run the code using make test && ./test
+    
     4. Modify the test cases file in our src/ directory to modify and run whatever dataset you need
+
+The Final Presentation video can be accessed with an Illinois account through this GDrive link: https://drive.google.com/file/d/12Fh5npbetdY9RftflCrqeMPapYKH2kyZ/view?usp=sharing
+
+The Final Report can be found under documents, the datasets can be found in data and the test cases in tests.
 
 # Data
 We used six different test data sets for this algorithm. We used small, medium and large datasets.
